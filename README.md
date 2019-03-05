@@ -12,9 +12,10 @@ Matlab Setup to run simulation
 	3.	Matlab path requirements
 
 Files Included
-	1. 	MatrixPermutations
-	2. 	ESSAnalysis
-	3. 	Abiraterone_Main
+	1. 	MatrixPermutations.m
+	2. 	ESSAnalysis.m
+	3. 	Abiraterone_Main.m
+	4. 	PatientData.txt
 
 Running simulation
 	1. 	Pre-calculated parameters
@@ -51,6 +52,8 @@ This file runs competitive Lotka-Volterra equations for each of the 22 coefficie
 3. Abiraterone_Main.m
 This file applies various Abiraterone treatments to any of the 22 coefficient sets. This will recreate the figures shown in the published manuscript and provide results. 
 
+4. PatientData.txt
+A simple text file including the time series data for the two patient data series used in the publication.
 
 Running Simulation
 
