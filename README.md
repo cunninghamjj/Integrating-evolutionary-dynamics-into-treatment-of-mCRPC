@@ -68,6 +68,7 @@ Here we set the competition coefficients from the 'matrixCoefficients' matrix, g
 
 5. Once the simulation is complete, the features discussed in the manuscript are available. The time for the T- population to reach 5% of the total population is available as timeTo5percent. The time for the T- population to reach 90% of the total population is available at timeTo90Percent. Also the total amount of abiraterone given as a percentage of standard of care is available as percentageOfSOC. Two figures are created. One showing the population dynamics and one showing the PSA dynamics. Each are highlighted in tan where the abiraterone was actually administered. 
 
+*** Commenting out the code under the label 'Highlight when Abi is given. - This is slow. Be patient.' in both figures will drastically speed up plotting.
 
 COPYRIGHT AND DISCLAIMER
 This software and documentation contained with it are copyright © 2017 by Jessica Cunningham and the Moffitt Cancer Research Institute. All rights are reserved.
